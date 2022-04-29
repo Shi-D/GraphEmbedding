@@ -62,4 +62,5 @@ if __name__ == "__main__":
                 f.write(str(i) + ' ' + str(list(embeddings[i])) + '\n')
 
 
+
             # plot_embeddings(embeddings, 100)
