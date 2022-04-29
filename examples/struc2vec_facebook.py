@@ -25,7 +25,7 @@ def plot_embeddings(embeddings, nodenum):
 
     for k in range(nodenum):
 
-        emb_list.append(embeddings[k])
+        emb_list.append(embeddings[str(k)])
 
     emb_list = np.array(emb_list)
 
@@ -43,18 +43,23 @@ def plot_embeddings(embeddings, nodenum):
 
 
 if __name__ == "__main__":
-    G = nx.read_edgelist('../data/epinions/epinions.edges', create_using=nx.DiGraph(), nodetype=None,
-                         data=[('weight', float)])
 
-    model = Struc2Vec(G, 10, 80, workers=4, verbose=40, )
-    model.train(embed_size=8)
-    embeddings = model.get_embeddings()
+    for i in range(50):
+        print('i:', i)
+        G = nx.read_edgelist('../data/DY-FB/facebook.'+str(i)+'.edges', create_using=nx.DiGraph(), nodetype=None,
+                             data=[('weight', float)])
+        a = np.array(range(100)).astype(str)
+        G.add_nodes_from(a)
 
-    print(embeddings)
+        model = Struc2Vec(G, 10, 80, workers=4, verbose=40, )
+        model.train(embed_size=8)
+        embeddings = model.get_embeddings()
 
-    with open('../data/epinions/epinions.emb', 'w') as f:
-        for i in embeddings:
-            f.write(str(i) + ' ' + str(list(embeddings[i])) + '\n')
+        # print(embeddings)
+
+        with open('../data/DY-FB/emb/facebook.'+str(i)+'.emb', 'w') as f:
+            for i in embeddings:
+                f.write(str(i) + ' ' + str(list(embeddings[i])) + '\n')
 
 
-    plot_embeddings(embeddings, 75879)
+            # plot_embeddings(embeddings, 100)

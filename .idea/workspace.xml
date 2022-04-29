@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/GraphEmbedding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GraphEmbedding.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/struc2vec_facebook.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/struc2vec_facebook.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ge/models/struc2vec.py" beforeDir="false" afterPath="$PROJECT_DIR$/ge/models/struc2vec.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
