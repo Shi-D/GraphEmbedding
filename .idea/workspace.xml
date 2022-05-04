@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="daaa7a08-ec55-4956-9668-584f26c75244" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+=======
+    <list default="true" id="daaa7a08-ec55-4956-9668-584f26c75244" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/GraphEmbedding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GraphEmbedding.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/struc2vec_facebook.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/struc2vec_facebook.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ge/models/struc2vec.py" beforeDir="false" afterPath="$PROJECT_DIR$/ge/models/struc2vec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ge/walker.py" beforeDir="false" afterPath="$PROJECT_DIR$/ge/walker.py" afterDir="false" />
+    </list>
+>>>>>>> 2c0475d73ec278f83875279f89f31e231940629f
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
@@ -36,18 +47,14 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> 2c0475d73ec278f83875279f89f31e231940629f
   <component name="FindInProjectRecents">
     <findStrings>
       <find>embeddings</find>
       <find>workers</find>
-      <find>999</find>
       <find>moepinions</find>
-      <find>39139813</find>
-      <find>3913981</find>
-      <find>21</find>
-      <find>5</find>
-      <find>14</find>
-      <find>63</find>
+      <find>999</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -56,20 +63,41 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/change_emb.py" />
         <option value="$PROJECT_DIR$/examples/struc2vec_facebook.py" />
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="473" />
     <option name="height" value="900" />
+=======
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/GraphEmbedding.iml" />
+        <option value="$PROJECT_DIR$/.idea/dbnavigator.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+      </list>
+    </option>
   </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="726" />
+    <option name="y" value="23" />
+    <option name="width" value="714" />
+    <option name="height" value="826" />
+>>>>>>> 2c0475d73ec278f83875279f89f31e231940629f
+  </component>
+  <component name="ProjectId" id="26BLGx8eUmrDglMxkhdUmShJe0u" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -82,41 +110,67 @@
               <item name="GraphEmbedding" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="GraphEmbedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraphEmbedding" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="ba" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraphEmbedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraphEmbedding" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="epinions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraphEmbedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraphEmbedding" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="facebook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraphEmbedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraphEmbedding" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="flight" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraphEmbedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraphEmbedding" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="wiki" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 2c0475d73ec278f83875279f89f31e231940629f
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+=======
+>>>>>>> 2c0475d73ec278f83875279f89f31e231940629f
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/DY-FB" />
-      <recent name="$PROJECT_DIR$/data/DY-BA" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/data/epinions" />
       <recent name="$PROJECT_DIR$/data/ba" />
+      <recent name="$PROJECT_DIR$/examples" />
+      <recent name="$PROJECT_DIR$/data/facebook" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Python.struc2vec_facebook">
-    <configuration name="change_emb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="struc2vec" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GraphEmbedding" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,11 +178,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ge/models" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/change_emb.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ge/models/struc2vec.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,9 +198,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\syd\AppData\Local\Programs\Python\Python36\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/struc2vec_facebook.py" />
@@ -161,10 +215,11 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.struc2vec_facebook" />
-        <item itemvalue="Python.change_emb" />
+        <item itemvalue="Python.struc2vec" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -180,14 +235,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122492835" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26432666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.27951807" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+>>>>>>> 2c0475d73ec278f83875279f89f31e231940629f
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -297,12 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/ba/ba.edges">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/epinions/epinions.edges">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/facebook/facebook.emb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -310,79 +364,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/change_emb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/data/ba/ba.edges">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/networkx/classes/coreviews.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/networkx/classes/graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="471" selection-start-line="471" selection-end-line="471" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/ba/ba.emb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="803" column="3" selection-start-line="803" selection-end-line="803" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/DY-BA/ba.0.emb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="95" column="51" selection-start-line="95" selection-start-column="51" selection-end-line="95" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/DY-BA/ba.9.emb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/DY-BA/ba.0.edges">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="182" column="5" selection-start-line="182" selection-start-column="3" selection-end-line="182" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/DY-BA/ba.edges">
+    <entry file="file://$PROJECT_DIR$/data/epinions/epinions.edges">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ge/models/struc2vec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        <state relative-caret-position="-48">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#382#393#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/DY-FB/facebook.0.edges">
+    <entry file="file://$PROJECT_DIR$/data/ba/ba.emb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="4439">
+          <caret line="803" column="3" selection-start-line="803" selection-end-line="803" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/struc2vec_facebook.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="415">
           <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+=======
+        <state relative-caret-position="414">
+          <caret line="59" column="38" lean-forward="true" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+>>>>>>> 2c0475d73ec278f83875279f89f31e231940629f
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

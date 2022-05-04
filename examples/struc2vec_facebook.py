@@ -1,10 +1,10 @@
 import numpy as np
+import os
 
 
+# from ge.classify import read_node_label,Classifier
 
-from ge.classify import read_node_label,Classifier
-
-from ge import Struc2Vec
+from ge.models import Struc2Vec
 
 from sklearn.linear_model import LogisticRegression
 
@@ -46,8 +46,9 @@ if __name__ == "__main__":
 
     for i in range(50):
         print('i:', i)
-        G = nx.read_edgelist('../data/DY-FB/facebook.'+str(i)+'.edges', create_using=nx.DiGraph(), nodetype=None,
+        G = nx.read_edgelist(os.path.join('..', 'data', 'DY-FB', str('facebook.'+str(i)+'.edges')), create_using=nx.DiGraph(), nodetype=None,
                              data=[('weight', float)])
+        print(os.path.join('..', 'data', 'DY-FB', str('facebook.'+str(i)+'.edges')))
         a = np.array(range(100)).astype(str)
         G.add_nodes_from(a)
 
@@ -57,9 +58,10 @@ if __name__ == "__main__":
 
         # print(embeddings)
 
-        with open('../data/DY-FB/emb/facebook.'+str(i)+'.emb', 'w') as f:
+        with open(os.path.join('..', 'data', 'DY-FB', str('facebook.'+str(i)+'.emb')), 'w') as f:
             for i in embeddings:
                 f.write(str(i) + ' ' + str(list(embeddings[i])) + '\n')
+
 
 
             # plot_embeddings(embeddings, 100)

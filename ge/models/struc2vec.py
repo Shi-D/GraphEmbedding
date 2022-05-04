@@ -25,14 +25,15 @@ from collections import ChainMap, deque
 
 import numpy as np
 import pandas as pd
+import fastdtw
 from fastdtw import fastdtw
 from gensim.models import Word2Vec
 from joblib import Parallel, delayed
 from tqdm import tqdm
 
-from ..alias import create_alias_table
-from ..utils import partition_dict, preprocess_nxgraph
-from ..walker import BiasedWalker
+from alias import create_alias_table
+from utils import partition_dict, preprocess_nxgraph
+from walker import BiasedWalker
 
 
 class Struc2Vec():

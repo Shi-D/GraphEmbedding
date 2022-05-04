@@ -7,8 +7,8 @@ import pandas as pd
 from joblib import Parallel, delayed
 from tqdm import trange
 
-from .alias import alias_sample, create_alias_table
-from .utils import partition_num
+from alias import alias_sample, create_alias_table
+from utils import partition_num
 
 
 class RandomWalker:
