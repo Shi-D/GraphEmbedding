@@ -8,7 +8,7 @@ from sklearn.linear_model import LogisticRegression
 import matplotlib.pyplot as plt
 import networkx as nx
 from sklearn.manifold import TSNE
-
+import os
 
 def evaluate_embeddings(embeddings):
     X, Y = read_node_label('../data/wiki/wiki_labels.txt')
@@ -43,12 +43,18 @@ def plot_embeddings(embeddings,):
 
 if __name__ == "__main__":
     for i in range(10):
-        G=nx.read_edgelist('../data/DY-FB/facebook.'+str(i)+'.edges',
+        G=nx.read_edgelist('../data/DY-BA/ba.'+str(i)+'.edges',
                              create_using = nx.DiGraph(), nodetype = None, data = [('weight', int)])
         model = Node2Vec(G, walk_length=10, num_walks=80,
                          p=0.25, q=4, workers=1, use_rejection_sampling=0)
         model.train(window_size = 5, iter = 3)
         embeddings=model.get_embeddings()
 
-        evaluate_embeddings(embeddings)
-        plot_embeddings(embeddings)
+        with open(os.path.join('..', 'data', 'DY-BA', str('ba.'+str(i)+'.emb')), 'w') as f:
+            for i in embeddings:
+                f.write(str(i) + ' ' + str(list(embeddings[i])) + '\n')
+
+
+
+        # evaluate_embeddings(embeddings)
+        # plot_embeddings(embeddings)
